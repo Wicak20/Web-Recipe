@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Edit Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid landing-page-main">
+        <!--  NAVBAR SECTION START -->
+        <div class="navbar container-fluid mt-5 px-5">
+            <div class="col-4">
+                <div class="justify-content-between d-none d-sm-flex">
+                    <div class="navbar-item">Register</div>
+                    <div class="navbar-item">Login</div>
+                    <div class="navbar-item">Search Menu</div>
+                </div>
+                <i class="bi bi-list-ul d-flex d-sm-none display-4"></i>
+            </div>
+            <div class="col-8  d-flex justify-content-end">
+                <div class="row profile-divider" style="width: max-content">
+                    <div class="col account-image pl-3 d-none d-sm-flex">
+                        <img class="navbar-photo" src="../Detail Profil/asset/ilham.JPG.jpeg" alt="profile pic">
+                    </div>
+                    <div class="col ml-3">
+                        <div>Wicak</div>
+                        <div class="logout">Logout</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  NAVBAR SECTION END-->
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <img src="/Profile/asset/ilham.JPG.jpeg" width=200px height=200px class="rounded-circle"
+                alt="profilPicture">
+        </div>
+        <div class="picture-change">
+            <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                href="#">
+                Change Profile picture
+            </a>
+        </div>
+        <div class="form-update">
+            <form>
+                <label>Name</label><br>
+                <input type="name" placeholder="Ilham"><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Password">
+            </form>
+        </div>
+        <div class="d-grid gap-2 col-3 mx-auto">
+            <button class="btn btn-primary"
+                style="background-color: #EFC81A; border: 1px solid #EFC81A; margin-top: 25px;" type="button">Update
+                Profil</button>
+        </div>
+        <div class="change-link">
+            <p>Change Password?<a href="#">Click Here</a></p>
+        </div>
+    </div>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

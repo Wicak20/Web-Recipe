@@ -1,0 +1,102 @@
+.landing-page-main {
+    font-family: cereal;
+    padding-left: 5%
+}
+
+/*  CSS NAVBAR START  */
+.navbar {
+    font-size: 18px;
+    color: #2E266F;
+    /* position: absolute; */
+    /* left: 2%; */
+    /* width: 90vw; */
+}
+
+.navbar-item {
+    margin-right: 10px;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+    color: #1E238F;
+    cursor: pointer;
+}
+
+.navbar-photo {
+    width: 64px;
+    border-radius: 100%;
+}
+
+.profile-divider {
+    border-left: 5px solid #EFC81A;
+}
+
+.logout {
+    font-weight: bolder;
+}
+
+/*  CSS NAVBAR END  */
+
+.nav-item {
+    font-size: 30px;
+}
+
+/* .card {
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.card-body img {
+    margin-top: 28px;
+}
+
+.card-body p {
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    display: block;
+    margin-left: 72px;
+} */
+
+.btn-option {
+    margin-top: 25px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #EFC81A;
+    padding: 2vw;
+    color: #2E266F;
+    font-weight: 100;
+    margin-top: 40px;
+
+}
+
+.footer-mid {
+    padding: 10vw;
+    text-align: center;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom-item {
+    margin-right: 10px;
+    font-size: 1.5vw;
+}
+
+.arkademy {
+    color: black;
+    position: absolute;
+    font-size: 1.5vw;
+    bottom: 20px;
+    right: 20px;
+}
